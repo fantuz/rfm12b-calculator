@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'RFMB12 Command Calculator' target in the 'RFMB12 Command Calculator' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
