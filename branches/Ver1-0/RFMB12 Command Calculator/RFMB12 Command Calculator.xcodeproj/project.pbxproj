@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25AE27813574FB200487CC0 /* RFMB12_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AE27713574FB200487CC0 /* RFMB12_Controller.m */; };
+		E25AE2C5135768A900487CC0 /* FreqValuesController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AE2C4135768A900487CC0 /* FreqValuesController.m */; };
+		E25AE2C81357699800487CC0 /* CapValuesController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AE2C71357699800487CC0 /* CapValuesController.m */; };
+		E296B2D11356EDA30069229E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E296B2D01356EDA30069229E /* Cocoa.framework */; };
+		E296B2DB1356EDA30069229E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E296B2D91356EDA30069229E /* InfoPlist.strings */; };
+		E296B2DE1356EDA30069229E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E296B2DD1356EDA30069229E /* main.m */; };
+		E296B2E11356EDA30069229E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E296B2DF1356EDA30069229E /* Credits.rtf */; };
+		E296B2E41356EDA30069229E /* RFMB12_Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E296B2E31356EDA30069229E /* RFMB12_Delegate.m */; };
+		E296B2E71356EDA30069229E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E296B2E51356EDA30069229E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E25AE27613574FB200487CC0 /* RFMB12_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFMB12_Controller.h; sourceTree = "<group>"; };
+		E25AE27713574FB200487CC0 /* RFMB12_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFMB12_Controller.m; sourceTree = "<group>"; };
+		E25AE2C3135768A900487CC0 /* FreqValuesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreqValuesController.h; sourceTree = "<group>"; };
+		E25AE2C4135768A900487CC0 /* FreqValuesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreqValuesController.m; sourceTree = "<group>"; };
+		E25AE2C61357699800487CC0 /* CapValuesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapValuesController.h; sourceTree = "<group>"; };
+		E25AE2C71357699800487CC0 /* CapValuesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapValuesController.m; sourceTree = "<group>"; };
+		E296B2CC1356EDA30069229E /* RFMB12 Command Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RFMB12 Command Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E296B2D01356EDA30069229E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E296B2D31356EDA30069229E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E296B2D41356EDA30069229E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E296B2D51356EDA30069229E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E296B2D81356EDA30069229E /* RFMB12 Command Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFMB12 Command Calculator-Info.plist"; sourceTree = "<group>"; };
+		E296B2DA1356EDA30069229E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E296B2DC1356EDA30069229E /* RFMB12 Command Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFMB12 Command Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		E296B2DD1356EDA30069229E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E296B2E01356EDA30069229E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E296B2E21356EDA30069229E /* RFMB12_Delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFMB12_Delegate.h; sourceTree = "<group>"; };
+		E296B2E31356EDA30069229E /* RFMB12_Delegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFMB12_Delegate.m; sourceTree = "<group>"; };
+		E296B2E61356EDA30069229E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E296B2C91356EDA30069229E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E296B2D11356EDA30069229E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25AE2C21357687E00487CC0 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				E25AE2C3135768A900487CC0 /* FreqValuesController.h */,
+				E25AE2C4135768A900487CC0 /* FreqValuesController.m */,
+				E25AE2C61357699800487CC0 /* CapValuesController.h */,
+				E25AE2C71357699800487CC0 /* CapValuesController.m */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		E296B2C11356EDA30069229E = {
+			isa = PBXGroup;
+			children = (
+				E25AE2C21357687E00487CC0 /* DataSources */,
+				E296B2D61356EDA30069229E /* RFMB12 Command Calculator */,
+				E296B2CF1356EDA30069229E /* Frameworks */,
+				E296B2CD1356EDA30069229E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E296B2CD1356EDA30069229E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E296B2CC1356EDA30069229E /* RFMB12 Command Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E296B2CF1356EDA30069229E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E296B2D01356EDA30069229E /* Cocoa.framework */,
+				E296B2D21356EDA30069229E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E296B2D21356EDA30069229E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E296B2D31356EDA30069229E /* AppKit.framework */,
+				E296B2D41356EDA30069229E /* CoreData.framework */,
+				E296B2D51356EDA30069229E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E296B2D61356EDA30069229E /* RFMB12 Command Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				E296B2E21356EDA30069229E /* RFMB12_Delegate.h */,
+				E296B2E31356EDA30069229E /* RFMB12_Delegate.m */,
+				E25AE27613574FB200487CC0 /* RFMB12_Controller.h */,
+				E25AE27713574FB200487CC0 /* RFMB12_Controller.m */,
+				E296B2E51356EDA30069229E /* MainMenu.xib */,
+				E296B2D71356EDA30069229E /* Supporting Files */,
+			);
+			path = "RFMB12 Command Calculator";
+			sourceTree = "<group>";
+		};
+		E296B2D71356EDA30069229E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E296B2D81356EDA30069229E /* RFMB12 Command Calculator-Info.plist */,
+				E296B2D91356EDA30069229E /* InfoPlist.strings */,
+				E296B2DC1356EDA30069229E /* RFMB12 Command Calculator-Prefix.pch */,
+				E296B2DD1356EDA30069229E /* main.m */,
+				E296B2DF1356EDA30069229E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E296B2CB1356EDA30069229E /* RFMB12 Command Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E296B2EA1356EDA30069229E /* Build configuration list for PBXNativeTarget "RFMB12 Command Calculator" */;
+			buildPhases = (
+				E296B2C81356EDA30069229E /* Sources */,
+				E296B2C91356EDA30069229E /* Frameworks */,
+				E296B2CA1356EDA30069229E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RFMB12 Command Calculator";
+			productName = "RFMB12 Command Calculator";
+			productReference = E296B2CC1356EDA30069229E /* RFMB12 Command Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E296B2C31356EDA30069229E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "home, baby, home";
+			};
+			buildConfigurationList = E296B2C61356EDA30069229E /* Build configuration list for PBXProject "RFMB12 Command Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E296B2C11356EDA30069229E;
+			productRefGroup = E296B2CD1356EDA30069229E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E296B2CB1356EDA30069229E /* RFMB12 Command Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E296B2CA1356EDA30069229E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E296B2DB1356EDA30069229E /* InfoPlist.strings in Resources */,
+				E296B2E11356EDA30069229E /* Credits.rtf in Resources */,
+				E296B2E71356EDA30069229E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E296B2C81356EDA30069229E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E296B2DE1356EDA30069229E /* main.m in Sources */,
+				E296B2E41356EDA30069229E /* RFMB12_Delegate.m in Sources */,
+				E25AE27813574FB200487CC0 /* RFMB12_Controller.m in Sources */,
+				E25AE2C5135768A900487CC0 /* FreqValuesController.m in Sources */,
+				E25AE2C81357699800487CC0 /* CapValuesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E296B2D91356EDA30069229E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E296B2DA1356EDA30069229E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E296B2DF1356EDA30069229E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E296B2E01356EDA30069229E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E296B2E51356EDA30069229E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E296B2E61356EDA30069229E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E296B2E81356EDA30069229E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CURRENT_PROJECT_VERSION = 1.0;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E296B2E91356EDA30069229E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CURRENT_PROJECT_VERSION = 1.0;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E296B2EB1356EDA30069229E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFMB12 Command Calculator/RFMB12 Command Calculator-Prefix.pch";
+				INFOPLIST_FILE = "RFMB12 Command Calculator/RFMB12 Command Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E296B2EC1356EDA30069229E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFMB12 Command Calculator/RFMB12 Command Calculator-Prefix.pch";
+				INFOPLIST_FILE = "RFMB12 Command Calculator/RFMB12 Command Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E296B2C61356EDA30069229E /* Build configuration list for PBXProject "RFMB12 Command Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E296B2E81356EDA30069229E /* Debug */,
+				E296B2E91356EDA30069229E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E296B2EA1356EDA30069229E /* Build configuration list for PBXNativeTarget "RFMB12 Command Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E296B2EB1356EDA30069229E /* Debug */,
+				E296B2EC1356EDA30069229E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E296B2C31356EDA30069229E /* Project object */;
+}
